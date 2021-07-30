@@ -1,0 +1,194 @@
+.Main-div{
+    /* background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%); */
+    background-color: rgb(255, 255, 255);
+    width: 800px;
+    min-height: 100vh;
+    
+}
+
+body{
+    height:fit-content;
+    min-height:100vh;
+    font-size: 16px;
+}
+ul{
+    padding:0px !important;
+}
+.card1{
+    margin:5px ;
+
+}
+.user{
+    display: flex;
+    justify-content: flex-end;
+}
+.guestuser{
+    display: flex;
+    justify-content: flex-start;
+}
+.userTime{
+    float: right;
+    color: darkgray;
+    font-size: 0.7rem;
+    margin-bottom: 10px;
+
+}
+.guestTime{
+    float: left;
+    color: darkgray;
+    font-size: 0.7rem;
+    margin-left: -28px;
+    margin-bottom: 10px;
+
+}
+.user .card1{
+    background-color: #0b81ff;
+    width: fit-content;
+    padding:5px 10px;
+    color:white;
+    /* max-width: 60%; */
+    border-radius: 3px;
+    
+}
+.guestuser .card1{
+    background-color: #e9e9eb;
+  color:black;
+    width: fit-content;
+    padding:5px 10px;
+    /* max-width: 60%; */
+    border-radius: 3px;
+
+    
+}
+.MuiTypography-h5{
+    color:black;
+    font-family:Arial, Helvetica, sans-serif  !important;
+    text-transform: none !important;
+    padding:0px !important;
+}
+.MuiCardContent-root{
+   padding:2px 0px !important;
+}
+
+.MuiFormLabel-root {
+   margin-left: 15px;
+   text-transform: capitalize;
+}
+
+
+
+.App_form{
+    padding:20px;
+    position:fixed;
+    bottom:0px;
+    z-index: 1;
+    background-color:#e9e9eb;
+    width:100%;
+    max-width: 798px;
+}
+
+.App_form_control{
+
+    display: flex!important;;
+    flex-direction: row!important;
+}
+.App_Button{
+    flex:0
+}
+.App_Input{
+    flex:1
+}
+
+
+
+/* // profile image ccss// */
+
+#profileImage {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #4eb2da;
+    font-size: 14px;
+    color: #fff;
+    margin-top: 10px;
+    font-weight: 500;
+    text-align: center;
+     cursor: context-menu;
+     border: none;
+     
+    
+    /* margin: 2rem 0; */
+  }
+  #profileImage p {
+    border: 1px solid;
+    width: 30px;
+    border-radius: 50%;
+    height: 30px;
+    position: relative;
+    left: -6px;
+    top: -1px;
+    text-align: center;
+    padding-top: 5px;
+      
+  }
+   
+
+ 
+  #dp-div-hiden{
+      display: none;
+      cursor: context-menu;      
+  }
+
+  #hidedpname{
+      display: none;
+      cursor: context-menu;
+  }
+
+
+  .addButton {
+    font-size: 13px;
+  }
+  
+  .messagesWrapper {
+    display: flex;
+    flex-direction: column;
+    border: 1px black solid;
+    height: 100px;
+    overflow: scroll;
+    margin-top: 1rem;
+  }
+  
+
+
+
+  
+.bubble {
+    font-family: sans-serif;
+    position:relative ;
+    width: fit-content;
+    height: fit-content;
+    background: rgb(190, 190, 190);
+    border-radius: 40px;
+    font-size: 12px;
+    padding: 2px 10px;
+    margin-top: 15px;
+    margin-right: 5px;
+    text-align: center;
+    color: #000;
+    text-transform: capitalize;
+  }
+  
+  /* .bubble-bottom-left:before {
+    content: "";
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    border-left: 12px solid rgb(190, 190, 190);
+    border-right: 6px solid transparent;
+    border-top: 6px solid rgb(190, 190, 190);
+    border-bottom: 10px solid transparent;
+    bottom: -10px;
+    left: 11px;
+  } */
+  
